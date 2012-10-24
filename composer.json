@@ -1,0 +1,17 @@
+{
+    "name": "ckhampus/composer-repository",
+    "description": "Custom Composer repository for random stuff.",
+    "require": {
+        "composer/satis": "dev-master"
+    },
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Cristian Hampus",
+            "email": "contact@cristianhampus.se"
+        }
+    ],
+    "config": {
+        "bin-dir": "bin/"
+    }
+}
