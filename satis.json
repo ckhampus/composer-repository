@@ -1,10 +1,30 @@
 {
     "name": "Custom",
-    "homepage": "http://packages.cristianhampus.se",
+    "homepage": "http://ckhampus.github.com/composer-repository",
     "repositories": [
         {
             "type": "vcs",
+            "url": "https://github.com/ckhampus/composer-installers"
+        },
+        {
+            "type": "vcs",
             "url": "https://github.com/ckhampus/wordpress-tests"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/ckhampus/wordpress-boilerplate"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/ckhampus/wordpress-auth"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/ckhampus/wordpress-helpers"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/ckhampus/wordpress-api"
         },
         {
             "type": "package",
@@ -12,6 +32,12 @@
                 "name": "wordpress/wordpress",
                 "type": "wordpress-core",
                 "version": "3.4.2",
+                "authors": [
+                    {
+                        "name": "WordPress Foundation",
+                        "homepage": "http://wordpress.org"
+                    }
+                ],
                 "dist": {
                     "url": "http://wordpress.org/wordpress-3.4.2.zip",
                     "type": "zip"
@@ -31,8 +57,8 @@
                 "version": "1.6.5.2",
                 "authors": [
                     {
-                        "name": "woothemes",
-                        "homepage": "http://profiles.wordpress.org/woothemes/"
+                        "name": "WooThemes",
+                        "homepage": "http://www.woothemes.com"
                     }
                 ],
                 "dist": {
@@ -40,9 +66,9 @@
                     "type": "zip"
                 },
                 "source": {
-                    "url": "http://plugins.svn.wordpress.org/woocommerce/",
+                    "url": "http://plugins.svn.wordpress.org/woocommerce",
                     "type": "svn",
-                    "reference": "tags/1.6.5.2/"
+                    "reference": "tags/1.6.5.2"
                 }
             }
         },
