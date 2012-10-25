@@ -26,19 +26,6 @@
         {
             "type": "package",
             "package": {
-                "name": "wordpress/wordpress",
-                "type": "wordpress-core",
-                "version": "dev-master",
-                "source": {
-                    "url": "http://core.svn.wordpress.org",
-                    "type": "svn",
-                    "reference": "trunk/"
-                }
-            }
-        },
-        {
-            "type": "package",
-            "package": {
                 "name": "woothemes/woocommerce",
                 "type": "wordpress-plugin",
                 "version": "1.6.5.2",
