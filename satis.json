@@ -52,6 +52,52 @@
         {
             "type": "package",
             "package": {
+                "name": "wordpress/twentytwelve",
+                "type": "wordpress-theme",
+                "version": "1.0.0",
+                "authors": [
+                    {
+                        "name": "WordPress Foundation",
+                        "homepage": "http://wordpress.org"
+                    }
+                ],
+                "dist": {
+                    "url": "http://wordpress.org/extend/themes/download/twentytwelve.1.0.zip",
+                    "type": "zip"
+                },
+                "source": {
+                    "url": "http://themes.svn.wordpress.org/twentytwelve",
+                    "type": "svn",
+                    "reference": "1.0"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "wordpress/twentyeleven",
+                "type": "wordpress-theme",
+                "version": "1.4.0",
+                "authors": [
+                    {
+                        "name": "WordPress Foundation",
+                        "homepage": "http://wordpress.org"
+                    }
+                ],
+                "dist": {
+                    "url": "http://wordpress.org/extend/themes/download/twentyeleven.1.4.zip",
+                    "type": "zip"
+                },
+                "source": {
+                    "url": "http://themes.svn.wordpress.org/twentyeleven",
+                    "type": "svn",
+                    "reference": "1.4"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
                 "name": "woothemes/woocommerce",
                 "type": "wordpress-plugin",
                 "version": "1.6.5.2",
