@@ -1,6 +1,6 @@
 {
     "name": "Custom",
-    "homepage": "http://ckhampus.github.com/composer-repository",
+    "homepage": "http://packages.cristianhampus.se",
     "repositories": [
         {
             "type": "vcs",
