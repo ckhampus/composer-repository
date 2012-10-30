@@ -1,3 +1,4 @@
 #!/bin/bash
 cd /var/www/composer-repository
+git pull
 bin/satis build satis.json web/
