@@ -121,6 +121,29 @@
         {
             "type": "package",
             "package": {
+                "name": "pods/framework",
+                "type": "wordpress-plugin",
+                "version": "2.0.4.1",
+                "authors": [
+                    {
+                        "name": "Scott Kingsley Clark",
+                        "homepage": "http://scottkclark.com"
+                    }
+                ],
+                "dist": {
+                    "url": "http://downloads.wordpress.org/plugin/pods.2.0.4.1.zip",
+                    "type": "zip"
+                },
+                "source": {
+                    "url": "http://plugins.svn.wordpress.org/pods",
+                    "type": "svn",
+                    "reference": "tags/2.0.4.1"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
                 "name": "selenium/selenium-server-standalone",
                 "type": "file",
                 "version": "2.25.0",
