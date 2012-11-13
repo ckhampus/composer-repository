@@ -121,7 +121,7 @@
         {
             "type": "package",
             "package": {
-                "name": "pods/framework",
+                "name": "pods/pods",
                 "type": "wordpress-plugin",
                 "version": "2.0.4.1",
                 "authors": [
