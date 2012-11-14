@@ -98,6 +98,24 @@
         {
             "type": "package",
             "package": {
+                "name": "wordpress/test-framework",
+                "version": "dev-master",
+                "authors": [
+                    {
+                        "name": "WordPress Foundation",
+                        "homepage": "http://wordpress.org"
+                    }
+                ],
+                "source": {
+                    "url": "http://unit-test.svn.wordpress.org/trunk/",
+                    "type": "svn",
+                    "reference": "includes/"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
                 "name": "woothemes/woocommerce",
                 "type": "wordpress-plugin",
                 "version": "1.6.5.2",
