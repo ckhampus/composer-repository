@@ -204,6 +204,29 @@
         {
             "type": "package",
             "package": {
+                "name": "buddypress/buddypress",
+                "type": "wordpress-plugin",
+                "version": "1.6.2",
+                "authors": [
+                    {
+                        "name": "BuddyPress",
+                        "homepage": "http://buddypress.org/"
+                    }
+                ],
+                "dist": {
+                    "url": "http://downloads.wordpress.org/plugin/buddypress.1.6.2.zip",
+                    "type": "zip"
+                },
+                "source": {
+                    "url": "http://plugins.svn.wordpress.org/buddypress",
+                    "type": "svn",
+                    "reference": "tags/1.6.2"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
                 "name": "pods/pods",
                 "type": "wordpress-plugin",
                 "version": "2.0.4.1",
